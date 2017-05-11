@@ -1,0 +1,202 @@
+
+.box{
+	width: 7.5rem;
+	height: 0.69rem;
+	background: #06066a;
+	position: fixed;
+	top: 0;
+	z-index: 9999999999999999999;
+	padding-top: 0.17rem;
+
+}
+.head{
+	width:7.5rem;
+	height: 0.86rem;
+	
+	position: absolute;
+	top: 0rem;
+}
+.head div{
+	float: left;
+}
+
+.head .goback{
+	width: 0.72rem;
+	height: 0.86rem;
+	background:url(../img/fanhui.png) no-repeat center;
+	background-size: 70%;
+}
+.head .title{
+	width: 6.06rem;
+	height: 0.86rem;
+	line-height: 0.86rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.4rem;
+	letter-spacing: 0.1rem;
+
+
+
+}
+.head .sousuo{
+	width: 0.72rem;
+	height: 0.86rem;
+	background:url(../img/search.png) no-repeat center;
+	background-size: 70%;
+}
+
+.usermessage{
+	width: 100%;
+	height: 3.2rem;
+	background: #ff0000 url(../img/userbg.png) no-repeat center;
+	background-size: 100%;
+	margin-top: 0.86rem;
+}
+.usermessage .touxiang{
+	width: 7.5rem;
+	height: 2.22rem;
+	display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.usermessage .touxiang .photo{
+	width: 1.7rem;
+	height: 1.7rem;
+	background: blue;
+	border-radius:50%;
+	position:relative;
+}
+
+#fileBtn{
+	position: absolute;
+	top: 0; 
+	width: 1.7rem;
+	height:1.7rem;
+	 border-radius: 50%;
+	 font-size: 0;
+	 display: block;
+	 opacity: 0;
+}
+
+.usermessage .touxiang .photo img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	display: block;
+}
+.usermessage .nicheng{
+	font-size: 0.3rem;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+
+}
+.usermessage .dizhidianhua{
+	font-size: 0.2rem;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	margin-top: 0.16rem;
+
+}
+.usermessage .dizhidianhua span{
+	display: inline-block;
+	position:relative;
+	text-indent: 0.35rem;
+}
+.usermessage .dizhidianhua span i img{
+	position:absolute;
+	top: 0;
+	width: 0.3rem;
+	height: 0.3rem;
+	display: block;
+}
+.usermessage .dizhidianhua .phone{
+    width: 1.3rem;
+	margin-left:  0.2rem;
+}
+.mylistcont{
+	background: #f2f2f2;
+	margin-bottom: 1.5rem;
+}
+
+.mylisty{
+	width: 7.5rem;
+	height: 0.92rem;
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+	font-size: 0.24rem;
+	margin-bottom: 0.1rem;
+	
+}
+.mylisty {
+	display: block;
+	width: 7.5rem;
+	height: 0.92rem;
+	background: red;
+	
+}
+.mylisty  img{
+	float: left;
+	display: block;
+	/*width: 0.33rem;
+	height: 0.31rem;*/
+	margin: 0.1rem 0 0 0.26rem;
+}
+.woqianbao img{
+	width: 0.8rem;
+	height: 0.8rem;
+}
+/*.mylisty  p{
+	float: left;
+	margin-left: 0.33rem;
+	height: 0.92rem;
+	line-height: 0.92rem;
+	font-size: 0.25rem;
+	font-weight: bold;
+	color: #414141;
+
+}*/
+.mylisty  span{
+	width: 0.19rem;
+	height: 0.32rem;
+	background:#fff url(../img/more.png) no-repeat center;
+	background-size: 100%;
+	float: right;
+	margin-left: 0.37rem;
+	line-height: 0.92rem;
+	font-size: 0.45rem;
+	font-weight: bold;
+	margin-right: 0.2rem;
+	margin-top: 0.3rem;
+
+}
+.mylisty {
+	height: 0.92rem;
+	line-height: 0.92rem;
+	font-size: 0.25rem;
+	font-weight: bold;
+	color: #414141;
+	text-indent: 1.5rem;
+}
+.erweima{
+	background:#fff url(../img/erweima.png) no-repeat 0.3rem center;
+}
+.kajuanbao{
+	background:#fff url(../img/kajuanbao.png) no-repeat 0.3rem center;
+}
+.woshoucang{
+	background:#fff url(../img/woshoucang.png) no-repeat 0.3rem center;
+}
+.woqianbao{
+	background:#fff url(../img/woqianbao.png) no-repeat 0.3rem center;
+}
+.wodingdan{
+	background:#fff url(../img/wodingdan.png) no-repeat 0.3rem center;
+}
+.vip{
+	background:#fff url(../img/vip.png) no-repeat 0.3rem center;
+}
+.wopingjia{
+	background:#fff url(../img/wopingjia.png) no-repeat 0.3rem center;
+}

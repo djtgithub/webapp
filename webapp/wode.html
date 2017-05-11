@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的</title>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=3,minimum-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/wo.css">
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+	<div class="box">
+		<!-- 顶部 -->
+		<div class="head">
+		
+           <!-- 返回 -->
+          <div class="goback"></div>
+          
+           <!-- title -->
+           <div class="title">我的</div>
+         
+           <!-- 搜索按钮 -->
+		      <div class="sousuo"></div>
+		</div>
+	 </div>
+
+   <!-- 个人信息 -->
+   <div class="usermessage">
+      <div class="touxiang">
+        <div class="photo" style="">
+        <!-- <img src="img/touxiang.jpg"/> -->
+        <img src="img/touxiang.jpg" id="img"/>
+          <!-- 调用相册与相机 -->
+
+          <input id="fileBtn" type="file" onchange="upload('#fileBtn', '#img');" accept="image/*;capture=camera" multiple name="myFile"/>
+
+
+        </div>
+        
+      </div>
+      <div class="nicheng">少女萌萌哒</div>
+      <div class="dizhidianhua">
+       <span><i><img src="img/dizhi.png"/></i>北京</span><span class="phone"><i><img src="img/dianhua.png"/></i>1234567989</span>
+      </div>
+
+   </div>
+
+<div class="mylistcont" >
+   <div class="mylisty erweima">
+   我的二维码
+   <span></span>
+     
+  </div>
+  <div class="mylisty kajuanbao">
+   卡劵包
+    <span></span>
+     
+  </div>
+  <div class="mylisty woshoucang">
+        我的收藏
+        <span></span>
+     
+  </div>
+   <div class="mylisty woqianbao">
+        我的钱包
+        <span></span>
+  </div>
+   <div class="mylisty wodingdan">
+       我的订单
+        <span></span>
+  </div>
+   <div class="mylisty vip">
+        会员中心
+        <span></span>
+  </div>
+   <div class="mylisty wopingjia">
+        我的评价
+        <span></span>
+  </div>
+</div>
+
+
+
+ 
+
+
+<!-- 底部导航栏 -->
+  <div class="navgatbar">
+
+
+  <ul class="tab">
+      <li class="home"><a ><div class="tubiao" ><i class="iconfont icon-home "></i></div><span class="wenzi">首页</span></a></li>
+      <li  class="faxian"><a><div class="tubiao" ><i class="iconfont icon-faxian"></i></div><span class="wenzi">发现</span></a></li>
+      <li  class="dongtai"><a><div class="tubiao" ><i class="iconfont icon-xiaoxi"></i></div><span class="wenzi">动态</span></a></li>
+      <li  class="gouwuche"><a><div class="tubiao" ><i class="iconfont icon-iconfontgouwuche"></i></div><span class="wenzi">购物框</span></a></li>
+      <li  class="wode"><a class="active"><div class="tubiao" ><i class="iconfont icon-wode"></i></div><span class="wenzi">我的</span></a></li>
+    </ul>
+    
+  </div>
+
+</body>
+<script type="text/javascript" src="js/rem.js"></script>
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+
+$('.goback').click(function(){
+  window.history.go(-1)
+})
+
+
+var upload = function(c, d){
+    "use strict";
+    var $c = document.querySelector(c),
+        $d = document.querySelector(d),
+        file = $c.files[0],
+        reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = function(e){
+        $d.setAttribute("src", e.target.result);
+
+        
+    };
+
+};
+
+
+
+
+</script>
+</html>

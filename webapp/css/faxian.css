@@ -1,0 +1,143 @@
+
+
+.box{
+	width: 7.5rem;
+	height: 0.69rem;
+	background: #06066a;
+	position: fixed;
+	top: 0;
+	z-index: 9999999999999999999;
+	padding-top: 0.17rem;
+
+}
+.head{
+	width:7.5rem;
+	height: 0.86rem;
+	
+	position: absolute;
+	top: 0rem;
+}
+.head div{
+	float: left;
+}
+
+.head .goback{
+	width: 0.72rem;
+	height: 0.86rem;
+	background:url(../img/fanhui.png) no-repeat center;
+	background-size: 70%;
+}
+.head .title{
+	width: 6.06rem;
+	height: 0.86rem;
+	line-height: 0.86rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.4rem;
+	letter-spacing: 0.1rem;
+}
+
+
+.faxiancont{
+	padding: 0 0.25rem;
+	margin-top: 1.06rem;
+
+}
+.faxiancontent{
+	width: 7rem;
+	height: 5rem;
+	
+}
+.faxiancontop{
+	width: 7rem;
+	height: 0.34rem;
+	margin-top: 0.22rem;
+
+}
+.faxiancontop div{
+    float:left;
+	width: 33%;
+	height: 0.34rem;
+	background: url(../img/daosanjiao.png) no-repeat 1.4rem center;
+	border-right: 1px solid #e3e3e3;
+	font-size: 0.3rem;
+	text-indent:0.5rem;
+	letter-spacing: 0.05rem;
+	line-height: 0.34rem;
+}
+.faxiancontop div:nth-child(3){
+	border: 0;
+}
+
+.faxianconbot dl{
+	margin-top: 0.43rem;
+	height: 1.44rem;
+	
+}
+.faxianconbot dl dt{
+	float: left;
+	width: 1.54rem;
+	height: 1.44rem;
+    border-radius:0.5rem;
+
+}
+.faxianconbot dl h4{
+	width: 4.14rem;
+	float: left;
+	font-size:0.28rem;
+	margin-left: 0.23rem;
+}
+.faxianconbot dl dt img{
+	display: block;
+  width: 100%;
+  height: 100%;
+}
+.faxianconbot dl dd{
+	width: 3.14rem;
+	float: left;
+	font-size: 0.2rem;
+	margin-left: 0.23rem;
+	
+}
+
+.faxianconbot dl .jieshao{
+    margin-left: 0.23rem;
+	float: left;
+	width: 4.14rem;
+	color: #a1a1a1;
+	
+	
+	font-size: 0.2rem;
+}
+.faxianconbot dl span{
+	float: right;
+    margin-top: -0.19rem;
+	font-size: 0.2rem;
+
+
+}
+.faxianconbot dl span i{
+	font-style: normal;
+	color: red;
+}
+.faxianconbot dl span a{
+	color: red;
+	font-weight: bold;
+	font-size: 0.38rem;
+}
+.faxianconbot dl dd li{
+	float: left;
+	width: 0.25rem;
+	height: 0.22rem;
+	background: url(../img/wujiaoxing.png) no-repeat center;
+	background-size: 100%;
+	margin: 0.08rem 0.1rem 0 0;
+}
+.faxianconbot dl dd li:last-child{
+	background: url(../img/wujiaoxing1.png) no-repeat center;
+	background-size: 100%;
+
+}
+.clear{
+	clear: both;
+}

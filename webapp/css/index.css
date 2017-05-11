@@ -1,0 +1,185 @@
+.box{
+	width: 7.5rem;
+	height: 0.88rem;
+	background: #06066a;
+	position: fixed;
+	top: 0;
+	z-index: 9999999999999999999;
+	padding-top: 0.17rem;
+
+}
+.head{
+	width:7.5rem;
+	height: 0.72rem;
+	/*position: absolute;
+	top: 0.17rem;*/
+}
+.header{
+	width: 6.5rem;
+	height: 0.72rem;
+	/*background: red;*/
+	margin: 0 auto;
+	/*border-radius: 0.2rem;
+	opacity: 0.5;*/
+	
+}
+.header div{float: left;}
+.header .dress{
+	width: 0.82rem;
+    height: 0.72rem;
+    font-size: 0.28rem;
+    line-height: 0.72rem;
+    color: #fff;
+    background: url(../img/sanjiao.png)  no-repeat 0.5rem center;
+	
+}
+.header .search{
+	width: 4.84rem;
+	 height: 0.72rem;
+	background: #958bd2;
+	margin-left: 0.15rem;
+	border-radius: 0.15rem;
+
+}
+
+.header .search .btn{
+	float: left;
+	width: 0.74rem;
+	height: 0.72rem;
+	background: url(../img/search.png) no-repeat center;
+	background-size: 60%;
+}
+.header .search input{
+	float: left;
+	width: 4.1rem;
+	height: 0.72rem;
+	line-height: 0.72rem;
+	font-size: 0.32rem;
+	border: none;
+	outline: none;
+	text-indent: 0.24rem;
+	color: #fff;
+	background: rgba(215,215,255,.0);
+}
+.header .message{
+	width: 0.54rem;
+	height: 0.72rem;
+	background: url(../img/message.png) no-repeat center;
+	background-size: 88%;
+	margin-left: 0.15rem;
+}
+/*头部信息*/
+.navgat{
+	width: 7.5rem;
+	height: 6.9rem;
+	background: blue;
+}
+
+
+
+
+.menu{
+	width: 7.5rem;
+	height: 2.88rem;
+	
+}
+
+.menutop{
+	height: 1.44rem;
+	display: flex;
+	 align-items: center;
+	justify-content: space-around;
+}
+.menutop p{
+	width:0.98rem;
+	height:0.98rem;
+
+/*	position: relative;
+	display: flex;
+	justify-content:center;*/
+
+}
+.menutop p:nth-child(1){margin-left: 0.18rem;}
+.menutop p a{
+	display: block;
+	width:0.73rem;
+	height:0.73rem;
+	border-radius: 50%;
+	background: pink;
+	    margin: 0 auto;
+
+}
+.menutop p a img{
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.menutop p span{
+	height: 0.2rem;
+	line-height: 0.2rem;
+	font-size: 0.2rem;
+	/*position: absolute;
+	bottom: 0;*/
+	color: #002;
+	display: block;
+	    text-align: center;
+	    margin-top: 0.12rem;
+
+}
+
+
+.menubottom{
+	height: 1.44rem;
+	display: flex;
+	 align-items: center;
+	justify-content: space-around;
+}
+.menubottom p{
+	width:0.98rem;
+	height:0.98rem;
+
+	position: relative;
+	display: flex;
+	justify-content:center;
+
+}
+.menubottom p a{
+	display: block;
+	width:0.73rem;
+	height:0.73rem;
+	border-radius: 50%;
+	background: pink;
+
+}
+.menubottom p a img{
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.menubottom p span{
+	height: 0.2rem;
+	line-height: 0.2rem;
+	font-size: 0.2rem;
+	position: absolute;
+	bottom: 0;
+	color: #002;
+}
+/*全民免费吃*/
+.gg{
+	height:1.61rem;
+	background: #f0f0f0;
+}
+.gg a img{
+	height: 1.25rem;
+	width: 100%;
+	margin-top:0.18rem;
+}
+
+.list li a img{
+	height: 1.13rem;
+	width: 100%;
+	border-bottom:  1px solid #ccc;
+	
+}

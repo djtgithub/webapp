@@ -1,0 +1,229 @@
+
+
+.box{
+	width: 7.5rem;
+	height: 0.69rem;
+	background: #06066a;
+	position: fixed;
+	top: 0;
+	z-index: 9999999999999999999;
+	padding-top: 0.17rem;
+
+}
+.head{
+	width:7.5rem;
+	height: 0.86rem;
+	
+	position: absolute;
+	top: 0rem;
+}
+.head div{
+	float: left;
+}
+
+.head .goback{
+	width: 0.72rem;
+	height: 0.86rem;
+	background:url(../img/fanhui.png) no-repeat center;
+	background-size: 70%;
+}
+.head .title{
+	width: 6.06rem;
+	height: 0.86rem;
+	line-height: 0.86rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.4rem;
+	letter-spacing: 0.1rem;
+}
+
+
+.gouwuchecont{
+	padding: 0.22rem 0.25rem 0;
+	margin-top:0.86rem;
+
+}
+
+
+.gouwuhchecontent .gouwuhcheshop{
+	width: 7rem;
+	height: 0.36rem;
+	background: url(../img/xian.png) no-repeat 6rem center;
+    color: #5c5c5c;
+}
+.gouwuhchecontent .gouwuhcheshop .xz{
+	width: 0.36rem;
+	height: 0.36rem;
+	display: block;
+	float: left;
+}
+.gouwuhchecontent .gouwuhcheshop .zhaopai{
+	margin-left: 0.28rem; 
+	float: left;
+	width: 2.6rem;
+	height: 0.36rem;
+	background: url(../img/dianpu.png) no-repeat 0 center;
+	background-size: 14%;
+	font-size: 0.2rem;
+	text-indent: 0.5rem;
+	line-height: 0.36rem;
+
+}
+.gouwuhchecontent .gouwuhcheshop .zhaopai img{
+	width: 0.26rem;
+	height: 0.26rem;
+	float:right;
+	margin-top: 0.05rem;
+	}
+.gouwuhchecontent .gouwuhcheshop a{
+		float: right;
+		font-size: 0.26rem;
+	}
+
+.gouwuhchecontent .gouwuhcheshop p{
+		float: right;
+		font-size: 0.26rem;
+		margin-right: 1rem;
+	}
+.gouwuhchecontent .gouwuchedetail{
+	height: 1.65rem;
+	
+	margin: 0.26rem 0 0 0;
+}
+.l{
+	float: left;
+}
+.gouwuhchecontent .gouwuchedetail .gouwuchedetaill{
+     width: 0.6rem;
+     height: 1.65rem;
+     
+     display: flex;
+    
+     align-items:center;
+}
+.gouwuhchecontent .gouwuchedetail .gouwuchedetaill .xz{
+	width: 0.36rem;
+	height: 0.36rem;
+	display: block;
+	float: left;
+}
+.gouwuhchecontent .gouwuchedetail .gouwuchedetailr dl dt{
+	float: left;
+	height: 1.62rem;
+	width: 1.65rem;
+	border: 1px solid #7b7a80;
+	margin-right: 0.2rem;
+}
+.gouwuhchecontent .gouwuchedetail .gouwuchedetailr dl dt img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.gouwuhchecontent .gouwuchedetail .gouwuchedetailr dl dd{
+	font-size: 0.26rem;
+	
+	padding-top:0.05rem;
+	
+}
+.gouwuhchecontent .gouwuchedetail .gouwuchedetailr dl h4{
+	font-size: 0.2rem;
+	margin: 0.14rem 0;
+}
+.gouwuhchecontent .gouwuchedetail .gouwuchedetailr .pice{
+	font-size: 0.2rem;
+}
+.gouwuhchecontent .gouwuchedetail .gouwuchedetailr .pice span{
+	font-weight: bold;
+	font-size: 0.26rem;
+}
+.gouwuhchecontent .gouwuchedetail .gouwuchedetailr .pice span b{
+	font-weight: normal;
+	font-size: 0.2rem;
+
+}
+.gouwuhchecontent .gouwuchedetail .gouwuchedetailr .pice s{
+	color: #bbbbbb;
+	margin-left: 0.08rem;
+}
+.gouwuhchecontent .gouwuchedetail .gouwuchedetailr .pice s b{
+	font-weight: normal;
+	font-size: 0.2rem;
+
+}
+.gouwuhchecontent .gouwuchedetail .gouwuchedetailr .pice i{
+	float: right;
+	font-style: normal;
+	font-size: 0.26rem;
+}
+.shopdetail{
+	margin-bottom: 0.2rem;
+}
+.total{
+	width: 100%;
+	height:1.26rem;
+    background: #fff;
+	position: fixed;
+	bottom: 1.26rem;
+	left: 0;
+	border: 1px solid #e8e8e8;
+	padding-left: 0.25rem;
+
+}
+.total img{
+	width: 0.36rem;
+	height: 0.36rem;
+	
+}
+.total  .allchoices{
+	height: 1.26rem;
+	width: 1.13rem;
+	float: left;
+	display: flex;
+	align-items: center;
+	font-size: 0.3rem;
+
+}
+.total  .allchoices img{
+	margin-right: 0.15rem;
+}
+.total .totaldetail{
+   float: left;
+   width: 3.94rem;
+   height: 1.26rem;
+ 
+}
+.total .totaldetail p{
+	width: 3.94rem;
+	text-align: right;
+	font-size: 0.3rem;
+	margin-top: 0.2rem;
+}
+.total .totaldetail p i{
+	font-style: normal;
+	font-size: 0.2rem;
+	
+}
+.total .totaldetail p span{
+	margin:0 0.24rem;
+}
+.total .totaldetail b{
+	float: right;
+	font-size: 0.2rem;
+	font-style: normal;
+	font-weight: normal;
+	margin:0.1rem  0.24rem 0 0;
+}
+.total .suanbtn{
+	float: right;
+	width: 2.06rem;
+	height: 1.26rem;
+	 background: linear-gradient(to top, #f40 80%,#ffffff 100%);
+	font-size: 0.35rem;
+	text-align: center;
+	color: #fff;
+	line-height: 1.26rem;
+	font-style: normal;
+}
+i{
+	font-style: normal;
+}

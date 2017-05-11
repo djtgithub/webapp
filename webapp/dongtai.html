@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>动态</title>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=3,minimum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="css/iconfont.css">
+<!-- 	<link rel="stylesheet" href="css/faxian.css"> -->
+    <link rel="stylesheet" href="css/common1.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/dongtai.css">
+</head>
+<body>
+		<div class="box">
+		<!-- 顶部 -->
+		<div class="head">
+		
+           <!-- 返回 -->
+          <div class="goback"></div>
+          
+           <!-- title -->
+           <div class="title">动态</div>
+         
+       
+		</div>
+	 </div>
+
+      <ul class="dongtaimenu">
+      	<li>
+			<img src="img/dongtai.png"/>
+			动态
+      	</li>
+      	<li>
+			<img src="img/new.png"/>
+			上新
+      	</li>
+      	<li>
+			<img src="img/shipin.png"/>
+			视屏
+      	</li>
+      	<li>
+			<img src="img/rewen.png"/>
+			热文
+      	</li>
+      	<li>
+			<img src="img/huati.png"/>
+			话题榜
+      	</li>
+      	<div class="bod"></div>
+      </ul>
+      
+      <div class="dongtaicontbox">
+           <div class="dongtaicontnet">
+           <!-- 动态模块 -->
+				<div class="dtcont dtbox">
+					<div class="dtziliao">
+						<dl>
+							<dt><img src="img/touxiang.jpg" /></dt>
+							<dd>圆月小巫</dd>
+							<div>10分钟前</div>
+						</dl>
+						<div class="shoucang">收藏</div>
+					</div>
+					<p class="zuixin">最新上架，美美哒！</p>
+					<ul class="dtcontmenu">
+						<li><img src="img/d1.png"/></li>
+						<li><img src="img/d2.png"/></li>
+						<li><img src="img/d3.png"/></li>
+						
+					</ul>
+					<ul class="dtcontmenu">
+						<li><img src="img/d4.png"/></li>
+						<li><img src="img/d5.png"/></li>
+						<li><img src="img/d6.png"/></li>
+						
+					</ul>
+					<ul class="dtcontmenu">
+						<li><img src="img/d7.png"/></li>
+						<li><img src="img/d8.png"/></li>
+						<li><img src="img/d9.png"/></li>
+						
+					</ul>
+					<div class="fangke">
+						<div><img src="img/yan.png"/>2560</div>
+						
+						<a class="pinglun">评论</a>
+						<a class="dianzan">5</a>
+					</div>
+				</div>
+				<div class="sxcont dtbox"></div>
+				<div class="spcont dtbox"></div>
+				<div class="rwcont dtbox"></div>
+				<div class="htcont dtbox"></div>
+
+           </div>
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 <!-- 底部导航栏 -->
+  <div class="navgatbar">
+
+
+  <ul class="tab">
+      <li class="home"><a ><div class="tubiao" ><i class="iconfont icon-home "></i></div><span class="wenzi">首页</span></a></li>
+      <li  class="faxian"><a ><div class="tubiao" ><i class="iconfont icon-faxian"></i></div><span class="wenzi">发现</span></a></li>
+      <li  class="dongtai"><a class="active"><div class="tubiao" ><i class="iconfont icon-xiaoxi"></i></div><span class="wenzi">动态</span></a></li>
+      <li  class="gouwuche"><a><div class="tubiao" ><i class="iconfont icon-iconfontgouwuche"></i></div><span class="wenzi">购物框</span></a></li>
+      <li  class="wode"><a ><div class="tubiao" ><i class="iconfont icon-wode"></i></div><span class="wenzi">我的</span></a></li>
+    </ul>
+    
+  </div>
+
+</body>
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script src="js/common.js"></script>
+<script type="text/javascript" src="js/rem.js"></script>
+
+
+<script>
+
+$('.goback').click(function(){
+  window.history.go(-1)
+})
+
+
+
+// 运动盒子的宽度
+var lw=$('.dongtaimenu').width();
+$('.dongtaimenu>li').each(function(index){
+   $(this).click(function(){
+   	var i=$('.dongtaimenu>li').index($(this));
+   	var w=$(window).width();
+   	var L= $('.dongtaicontnet').position().left;
+   	// alert(w)
+   	var s=$('.dongtaimenu>li').size();
+     L=w*i;
+        if( $('.dongtaicontnet').is(":animated")){     
+        }else{
+         $('.dongtaicontnet').animate({'left':-L},300)
+        }
+   		
+   	hl=$('.bod').width()*i
+   		$('.bod').animate({'left':hl},300)
+   })
+
+
+
+
+})
+//tab切换支持touch
+
+// 			var startX,startY,endX,endY;
+		
+		
+		
+// 		document.addEventListener("touchstart",touchStart,false);
+// 		document.addEventListener("touchmove",touchMove,false);
+// 		 document.addEventListener("touchend",touchEnd,false);
+
+
+// 			function touchStart(event){
+// 				var touch=event.touches[0];
+// 				startY=touch.pageY;
+// 				startX=touch.pageX;
+// 			}
+			
+// 			function touchMove(event){
+// 				var touch=event.touches[0];
+// 				endX=touch.pageX;
+// 			}
+			
+
+
+
+// 			function touchEnd(event){
+// 				var w=$(window).width();
+//    				var L= $('.dongtaicontnet').position().left;
+// //				console.log(startX-endX)
+// 				if(startX-endX>0){
+// 				// 向左滑动
+// 				console.log(startX-endX)
+// 					if(L<=-(lw-w)){
+
+// 					}else{
+// 						L=L-w;				
+// 						$('.dongtaicontnet').animate({'left':-L},300)
+// 					}
+// 				}else{
+// 						console.log(startX-endX)
+// 				// 向右滑动
+// 					if(L>=0){
+// 						L=L+w;
+// 						// $('.dongtaicontnet').animate({'left':L},500);
+// 					}
+// 				}
+// 			}
+
+
+</script>
+</html>

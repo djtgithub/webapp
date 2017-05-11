@@ -1,0 +1,115 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; } 
+ul,li{list-style: none;}
+a:hover { text-decoration:none; } 
+
+
+a:active:{text-decoration: none; }  
+a:visited {text-decoration:none;}  
+
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; } 
+html,body{
+	position: relative;
+    max-width:640px;
+    width:100%;
+    
+}
+    .swiper-container {
+        width: 100%;
+        height: 3.68rem;
+        
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide img{
+    	width: 100%;
+    	height: 100%;
+    }
+ /*底部导航*/
+.navgatbar{
+    width: 7.5rem;
+    height: 1.26rem;
+    background: #f6f6f6;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+}
+.navgatbar ul{
+    width: 7.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navgatbar ul li{
+    float: left;
+    width:1.28rem;
+    height: 1.26rem;
+    
+
+}
+.navgatbar ul li a{
+    display: block;
+    width:1.28rem;
+    height: 1.26rem;
+    text-align: center;
+}
+
+.navgatbar ul li a:visited{ text-decoration: none; } 
+.navgatbar ul li a span{
+    display: block;
+    width: 1.28rem;
+    position: relative;
+
+}
+
+.navgatbar ul li  span.wenzi{
+    height: 0.51rem;
+    line-height: 0.51rem;
+    font-size: 0.2rem;
+    text-align: center;
+    
+}
+.navgatbar ul li a .tubiao{
+    height: 0.75rem;
+    font-size: 12px;
+    line-height: 0.75rem
+}
+.active{
+    color: blue;
+
+}
+
+
+
+
+
+

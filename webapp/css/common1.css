@@ -1,0 +1,42 @@
+
+
+
+
+
+
+.box{
+    width: 7.5rem;
+    height: 0.69rem;
+    background: #06066a;
+    position: fixed;
+    top: 0;
+    z-index: 9999999999999999999;
+    padding-top: 0.17rem;
+
+}
+.head{
+    width:7.5rem;
+    height: 0.86rem;
+    
+    position: absolute;
+    top: 0rem;
+}
+.head div{
+    float: left;
+}
+
+.head .goback{
+    width: 0.72rem;
+    height: 0.86rem;
+    background:url(../img/fanhui.png) no-repeat center;
+    background-size: 70%;
+}
+.head .title{
+    width: 6.06rem;
+    height: 0.86rem;
+    line-height: 0.86rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.4rem;
+    letter-spacing: 0.1rem;
+}
